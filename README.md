@@ -2,7 +2,7 @@
 
 Congrats! If you've received a link to this repo it means that we think that you might be a good fit for our team.
 
-This is a basic expo app with some pre-installed packages, most importantly: **viem, react-native-device-crypto,
+This is a basic [Expo](https://expo.dev) app with some pre-installed packages, most importantly: **viem, react-native-device-crypto,
 react-native-keychain**
 
 ## Your task
@@ -13,7 +13,7 @@ react-native-keychain**
 
 ## Things to consider
 
-It's up to you to come with a solution on how to store the private key securely. Think about the security implications
+It's up to you to come up with a solution on how to store the private key securely. Think about the security implications
 of storing a private key on a device and how you can mitigate the risks.
 
 ## Get started
