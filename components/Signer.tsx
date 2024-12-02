@@ -1,29 +1,20 @@
-import { StyleSheet, Button, Text, View } from "react-native";
+import usePrivateKey from "@/hooks/use-private-key/use-private-key";
+import { Button, Text, View } from "react-native";
 
 export default function Signer() {
-
-
-  const createPrivateKey = async () => {
-
-  };
-
-  const revealPrivateKey = async () => {
-  };
-
+  const { privateKey, createPrivateKey, revealPrivateKey } = usePrivateKey();
+  
   return (
     <View>
       <Button
         title="Generate an account by random key"
         onPress={createPrivateKey}
       />
-
       <Button
           title="Reveal private key for generated account"
           onPress={revealPrivateKey}
       />
-
-        <Text>private key: display private key here</Text>
-
+      <Text>private key: {privateKey}</Text>
     </View>
   );
 }
